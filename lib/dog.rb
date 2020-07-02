@@ -1,15 +1,15 @@
 class Dog 
   def name=(any_name)
-    @real_name = any_name 
+    @name = any_name 
   end
   def name 
-    @real_name
+    @name
   end
   def breed=(any_breed)
-    @real_breed = any_breed
+    @breed = any_breed
   end
   def breed 
-    @real_breed
+    @breed
   end
 end
 
