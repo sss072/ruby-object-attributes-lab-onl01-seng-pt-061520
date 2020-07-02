@@ -6,3 +6,5 @@ class Dog
     @real_name
   end
 end
+
+sami = Dog.name("Sami")
