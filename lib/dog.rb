@@ -5,7 +5,12 @@ class Dog
   def name 
     @real_name
   end
-  def breed=()
+  def breed=(any_breed)
+    @real_breed = any_breed
+  end
+  def breed 
+    @real_breed
+  end
 end
 
 #fido.instance_variable_set(:@real_name,"Fido")
