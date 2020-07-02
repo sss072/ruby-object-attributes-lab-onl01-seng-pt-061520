@@ -7,6 +7,4 @@ class Dog
   end
 end
 
-sami = Dog.new 
-sami.name=("Sami")
-sami.name 
+sami.instance_variable_get(:@real_name,"Fido")
