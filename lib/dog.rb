@@ -7,4 +7,4 @@ class Dog
   end
 end
 
-sami.instance_variable_set(:@real_name,"Fido")
+#sami.instance_variable_set(:@real_name,"Fido")
