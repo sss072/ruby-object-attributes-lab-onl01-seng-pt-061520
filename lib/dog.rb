@@ -8,5 +8,5 @@ class Dog
 end
 
 sami = Dog.new 
-sami.name("Sami")
+sami.name=("Sami")
 sami.name 
