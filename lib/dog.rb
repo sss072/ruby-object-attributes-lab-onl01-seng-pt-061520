@@ -7,4 +7,4 @@ class Dog
   end
 end
 
-fido.instance_variable_set(:@real_name,"Fido")
+#fido.instance_variable_set(:@real_name,"Fido")
